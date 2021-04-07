@@ -20,6 +20,9 @@
           @click="generateItems(count)">
           {{ count }}
         </button>
+        <button @click="generateItems(0)">
+          Clear
+        </button>
       </p>
       <div
         v-for="(item, index) in items"
