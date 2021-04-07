@@ -68,6 +68,7 @@ export default defineComponent({
       }
     }
 
+    // @ts-ignore
     function handleKey({ code, target }) {
       // TODO: Scrolling for up/down
       switch (code) {
@@ -113,6 +114,7 @@ export default defineComponent({
     function onFocus() {
       focused.value = true
     }
+    // @ts-ignore
     function onBlur(event) {
       if (event.relatedTarget && event.relatedTarget.className.includes("result")) {
         select()

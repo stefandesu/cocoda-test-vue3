@@ -14,6 +14,7 @@
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
+// @ts-ignore
 import jskos from "jskos-tools"
 
 export default defineComponent({
